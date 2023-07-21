@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="layout">
+    <div class="header">
+      <a class="date" id="scrollToFooter" href="#footer">
+        <h2>>> 01-0723 &#8757 GS</h2>
+        <!-- &#8757 -->
+      </a>
+      <div class="socials">
+        <a href=""><svg stroke="currentColor" fill="#6366f1" stroke-width="0" viewBox="0 0 1024 1024" height="1.4em"
+            width="1.4em" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z">
+            </path>
+          </svg></a>
+        <a href="">
+          <svg stroke="currentColor" fill="#ec4899" stroke-width="0" viewBox="0 0 1024 1024" height="1.4em"
+            width="1.4em" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="main">
+      <img
+        src="https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2092&q=80"
+        alt="">
+      <p>Summit elevation: 3,776.24 m (12,389 ft 3 in)</p>
+    </div>
+    <div class="side">
+      <div class="side-letters">
+        <p>富</p>
+        <p>士</p>
+        <p>山</p>
+      </div>
+      <div class="side-text">
+        <h2>MOUNT FUJI<span>
+            <form action="https://www.youtube.com">
+              <button class="cta">
+                <span class="button-text">More</span></button>
+            </form>
+          </span></h2>
+        <p>The origin of the mountain's name is uncertain. It first appears as Fuji no Yama in Hitachi no kuni fudoki,
+          an early government record Among the several theories about the source of the name is that it is derived from
+          an Ainu term meaning “fire,” coupled with san, the Japanese word for “mountain.”</p>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <div id="footer" class="footer-container">
+      <p><span>>></span> This was built with the purpose of practicing the grid system / <strong>designed</strong> by
+        <span class="highlight">Joseph V</span>
+      </p>
+
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('scrollToFooter').addEventListener('click', function (event) {
+      event.preventDefault();
+      const footerElement = document.getElementById('footer');
+      footerElement.scrollIntoView();
+    });
+  </script>
+
+
+</body>
+
+</html>
+
+
+<!-- <svg stroke="currentColor" fill="#f43f5e" stroke-width="0" viewBox="0 0 16 16" height="1em"
+width="1em" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8" cy="8" r="8"></circle>
+</svg> -->
